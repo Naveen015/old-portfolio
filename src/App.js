@@ -8,8 +8,6 @@ import {
   Work,
   Projects,
   Publication,
-  Research,
-  Blog,
   News,
   Hobbies,
 } from "@pages/Pages";
@@ -24,8 +22,6 @@ function App() {
         <Route path="/work" component={Work} />
         <Route path="/projects" component={Projects} />
         <Route path="/publications" component={Publication} />
-        <Route path="/research" component={Research} />
-        <Route path="/blog" component={Blog} />
         <Route path="/news" component={News} />
         <Route path="/hobbies" component={Hobbies} />
       </Switch>
