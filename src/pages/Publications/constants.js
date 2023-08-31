@@ -1,4 +1,4 @@
-import glcm from "@assets/Publication/methodology_glcm.jpg";
+import glcm from "@assets/Publication/Methodology_GLCM.jpeg";
 
 const groupCardConfig = {
   xs: "1",
