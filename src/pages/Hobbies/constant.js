@@ -1,7 +1,7 @@
-import frisbee from "@assets/extras/naruto.jpg";
-import football from "@assets/extras/parrot.jpg";
-import trekking from "@assets/extras/solo.png";
-import marathon from "@assets/extras/sword.jpg";
+import frisbee from "@assets/extras/frisbee.jpeg";
+import football from "@assets/extras/football.jpeg";
+import trekking from "@assets/extras/hiking2.jpeg";
+import marathon from "@assets/extras/marathon.jpeg";
 
 const groupCardConfig = {
   xs: "1",
