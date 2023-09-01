@@ -10,7 +10,7 @@ const Hobbies = () => {
   return (
     <>
       <HobbiesContainer>
-        <Title>Art</Title>
+        <Title>Sports</Title>
         <GroupCard data={artData} groupCardConfig={groupCardConfig}></GroupCard>
       </HobbiesContainer>
     </>

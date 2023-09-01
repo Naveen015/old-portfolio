@@ -11,7 +11,7 @@ const Navigation = () => {
           <LinkContainer to="/">
             <Navbar.Brand>
               {/* <img src={logo} style={{ width: 30, marginTop: -6 }} /> */}
-              Abhishek Rajendra Prasad
+              Naveen Prashanna
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,12 +28,6 @@ const Navigation = () => {
               </LinkContainer>
               <LinkContainer to="/publications">
                 <Nav.Link>Publications</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/research">
-                <Nav.Link>Research</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/blog">
-                <Nav.Link>Blog</Nav.Link>
               </LinkContainer>
               <LinkContainer to="/news">
                 <Nav.Link>News</Nav.Link>

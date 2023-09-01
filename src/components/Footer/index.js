@@ -13,11 +13,11 @@ const Footer = () => {
           <MDBCol md="6">
             <h5 className="title">Contact Information</h5>
             <address>
-              <a href="mailto:rabhi1604@gmail.com">
-                Email: rabhi1604@gmail.com
+              <a href="mailto:gnaveen1509@gmail.com">
+                Email: gnaveen1509@gmail.com
               </a>
               <br />
-              7421 Frankford Rd Apt. 1632 <br /> Dallas, TX - 75252
+              7220 McCallum Blvd Apt. 503 <br /> Dallas, TX - 75252
             </address>
           </MDBCol>
           <MDBCol md="6">
@@ -26,7 +26,7 @@ const Footer = () => {
               <li className="fab fa-facebook-f">
                 <span style={{ marginLeft: "10px", marginRight: "10px" }}>
                   <a
-                    href="https://www.facebook.com/abhishek.rajendraprasad/"
+                    href="https://www.facebook.com/naveen.prashanna/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -36,8 +36,8 @@ const Footer = () => {
               </li>
               <li className="fab fa-instagram">
                 <span style={{ marginLeft: "10px", marginRight: "10px" }}>
-                  <a
-                    href="https://www.instagram.com/abhishekr04/"
+                  <a 
+                    href="https://www.instagram.com/naveen_prashanna/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -48,7 +48,7 @@ const Footer = () => {
               <li className="fab fa-github">
                 <span style={{ marginLeft: "10px", marginRight: "10px" }}>
                   <a
-                    href="https://github.com/Abhishek-Rajendra"
+                    href="https://github.com/naveen015"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -59,7 +59,7 @@ const Footer = () => {
               <li className="fab fa-linkedin">
                 <span style={{ marginLeft: "10px", marginRight: "10px" }}>
                   <a
-                    href="https://www.linkedin.com/in/abhishek-rajendra-prasad/"
+                    href="https://www.linkedin.com/in/naveen015/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -73,7 +73,7 @@ const Footer = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Abhishek Rajendra Prasad
+          &copy; {new Date().getFullYear()} Naveen Prashanna Gurumurthy
         </MDBContainer>
       </div>
     </MDBFooter>
