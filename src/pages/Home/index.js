@@ -26,9 +26,7 @@ const Home = () => {
           <Row>
             <Col xs={12} md={8}>
               <Paragraph data={aboutMe}></Paragraph>
-              <a href={Naveen_CS} target="_blank" rel="noreferrer">Resume for Software Engineer</a>
-              <br></br>
-              <a href={Naveen_ML} target="_blank" rel="noreferrer">Resume for Data Science/ML/Research</a>
+              <a href={Naveen_CS} target="_blank" rel="noreferrer">Resume</a>
             </Col>
             <Col xs={6} md={4}>
               <Image src={naveen} {...options}></Image>
