@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 const ParagraphContainer = styled.div`
-  padding: 10px;
+  padding-right: 10px;
   display: "flex";
   justifycontent: "center";
   alignitems: "center";
 `;
 
 const TextContainer = styled.div`
-  padding: 10px;
 `;
 
 const Paragraph = (props) => {

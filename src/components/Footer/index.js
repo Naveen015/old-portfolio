@@ -1,4 +1,5 @@
 import React from "react";
+import { Container} from "react-bootstrap";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 const Footer = () => {
@@ -6,42 +7,26 @@ const Footer = () => {
     <MDBFooter
       style={{ position: "relative", left: 0, bottom: 0, right: 0 }}
       color="elegant-color"
-      className="font-small pt-4 mt-4"
+      className="font-small pt-2 pb-1"
     >
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="6">
-            <h5 className="title">Contact Information</h5>
-            <address>
-              <a href="mailto:gnaveen1509@gmail.com">
-                Email: gnaveen1509@gmail.com
-              </a>
-              <br />
-              7220 McCallum Blvd Apt. 503 <br /> Dallas, TX - 75252
-            </address>
-          </MDBCol>
-          <MDBCol md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="fab fa-facebook-f">
-                <span style={{ marginLeft: "10px", marginRight: "10px" }}>
-                  <a
-                    href="https://www.facebook.com/naveen.prashanna/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Facebook
+      <MDBContainer fluid className="text-left text-md-left"> 
+        <Container>         
+            <ul className="pl-0">
+              <li className="fa">
+                <span style={{ marginLeft: "0px", marginRight: "20px" }}>
+                  <a className="h5">
+                    Contact
                   </a>
                 </span>
               </li>
-              <li className="fab fa-instagram">
+              <li className="fa fa-envelope">
                 <span style={{ marginLeft: "10px", marginRight: "10px" }}>
-                  <a 
-                    href="https://www.instagram.com/naveen_prashanna/"
+                  <a
+                    href="mailto:gnaveen1509@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Instagram
+                    gnaveen1509@gmail.com
                   </a>
                 </span>
               </li>
@@ -68,14 +53,8 @@ const Footer = () => {
                 </span>
               </li>
             </ul>
-          </MDBCol>
-        </MDBRow>
+        </Container>
       </MDBContainer>
-      <div className="footer-copyright text-center py-3">
-        <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Naveen Prashanna Gurumurthy
-        </MDBContainer>
-      </div>
     </MDBFooter>
   );
 };

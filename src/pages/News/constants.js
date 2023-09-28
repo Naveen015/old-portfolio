@@ -42,11 +42,6 @@ const newsData = [
       "Received a Scholarship for Graduate Studies by securing merit score in GATE (Graduate Aptitude Test in Engineering)",
   },
   {
-    date: '<p style="color:red;">May 2021</p>',
-    content:
-      "",
-  },
-  {
     date: '<p style="color:red;">Apr 2020 - Jun 2020</p>',
     content:
       "Worked in Big Data Science Research as a Software Engineer Intern",

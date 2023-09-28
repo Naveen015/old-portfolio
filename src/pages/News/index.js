@@ -1,17 +1,20 @@
 import styled from "styled-components";
 import { SimpleTable, Title } from "@components/Components";
 import { newsData, tableConfig } from "./constants";
+import { Container} from "react-bootstrap";
 
 const NewsContainer = styled.div`
-  padding: 50px;
+  padding: 10px;
 `;
 
 const News = () => {
   return (
     <>
       <NewsContainer>
-        <Title>News</Title>
-        <SimpleTable data={newsData} tableConfig={tableConfig}></SimpleTable>
+        <Container>
+          <Title>News</Title>
+          <SimpleTable data={newsData} tableConfig={tableConfig}></SimpleTable>
+        </Container>
       </NewsContainer>
     </>
   );

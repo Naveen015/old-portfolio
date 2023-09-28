@@ -8,7 +8,7 @@ import Naveen_CS from "@assets/Naveen_CS.pdf";
 import Naveen_ML from "@assets/Naveen_ML.pdf";
 
 const HomeContainer = styled.div`
-  padding: 50px;
+  padding: 10px;
 `;
 
 const Home = () => {
@@ -20,11 +20,13 @@ const Home = () => {
   return (
     <>
       <HomeContainer>
-        <Title>Welcome to Naveen's Website!!</Title>
+        <Container>
+          <Title>Welcome to Naveen's Website!!</Title>
+        </Container>
         <Container>
           {/* Stack the columns on mobile by making one full-width and the other half-width */}
           <Row>
-            <Col xs={12} md={8}>
+            <Col xs={12} md={10} lg={8}>
               <Paragraph data={aboutMe}></Paragraph>
               <a href={Naveen_CS} target="_blank" rel="noreferrer">Resume</a>
             </Col>

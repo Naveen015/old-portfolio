@@ -8,7 +8,9 @@ const groupCardConfig = {
 
 const publicationData = [
   {
-    cardConfig: {},
+    cardConfig: {
+      style: { width: "39em" },
+    },
     isVideo: false,
     src: glcm,
     srcConfig: {
@@ -16,7 +18,7 @@ const publicationData = [
       controls: true,
       autoPlay: true,
       muted: true,
-      style: { display: "block", height: "15em", width: "100%" },
+      style: { display: "block", height: "10em", width: "38em", margin: "0.3em" },
     },
     header: "Thesis",
     headerConfig: { as: "h5" },

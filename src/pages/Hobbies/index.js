@@ -1,17 +1,20 @@
 import styled from "styled-components";
 import { Title, GroupCard } from "@components/Components";
 import { artData, groupCardConfig } from "./constant";
+import { Container} from "react-bootstrap";
 
 const HobbiesContainer = styled.div`
-  padding: 50px;
+  padding: 10px;
 `;
 
 const Hobbies = () => {
   return (
     <>
       <HobbiesContainer>
-        <Title>Sports</Title>
-        <GroupCard data={artData} groupCardConfig={groupCardConfig}></GroupCard>
+        <Container>
+          <Title>Sports</Title>
+          <GroupCard data={artData} groupCardConfig={groupCardConfig}></GroupCard>
+        </Container>
       </HobbiesContainer>
     </>
   );

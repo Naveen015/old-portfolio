@@ -1,7 +1,7 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import { withRouter } from "react-router";
-
+import logo from "@assets/N.png";
 
 const Navigation = () => {
   return (
@@ -10,7 +10,7 @@ const Navigation = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              {/* <img src={logo} style={{ width: 30, marginTop: -6 }} /> */}
+              {<img src={logo} style={{ width: 30, marginRight: 6 }} />}
               Naveen Prashanna
             </Navbar.Brand>
           </LinkContainer>
