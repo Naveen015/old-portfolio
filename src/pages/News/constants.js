@@ -6,7 +6,7 @@ const newsData = [
     content: "Joined as Master Student at The University of Texas at Dallas",
   },
   {
-    date: '<p style="color:red;">Jul 4, 2022 - Jan 31, 2023</p>',
+    date: '<p style="color:red;">Jul 4, 2022 - Jun 30, 2023</p>',
     content: "Worked in Quantitative Brokers as Software Engineer",
   },
   {
