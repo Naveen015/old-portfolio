@@ -15,7 +15,7 @@ const workData = [
       "<li><strong>Tools Used:</strong> Python, C++, VueJS, PostgreSQL</li>"+
       "</ul>",
     footer:
-      '<p style="margin:0;padding:0;">May 2021 - Jan 2023 <a href="https://quantitativebrokers.com/"  target="_blank" rel="noreferrer">Quantitative Brokers</a></p>',
+      '<p style="margin:0;padding:0;">May 2021 - Jun 2023 <a href="https://quantitativebrokers.com/"  target="_blank" rel="noreferrer">Quantitative Brokers</a></p>',
     footerConfig: { className: "text-muted d-flex justify-content-end" },
   },
   {
